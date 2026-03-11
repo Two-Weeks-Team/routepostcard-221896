@@ -1,3 +1,5 @@
+use client;
+
 type SavedPlan = {
   summary: string;
   score: number;
