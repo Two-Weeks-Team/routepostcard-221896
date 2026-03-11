@@ -1,4 +1,4 @@
-use client;
+"use client";
 
 type WorkspacePanelProps = {
   query: string;
@@ -29,7 +29,7 @@ export default function WorkspacePanel({
 }: WorkspacePanelProps) {
   return (
     <section className="workspace-panel">
-      <span className="eyebrow">{eyebrow}</span>
+      <span className="eyebrow'>{eyebrow}</span>
       <div className="controls">
         <textarea value={query} onChange={(event) => onQueryChange(event.target.value)} placeholder={queryPlaceholder} />
         <textarea value={preferences} onChange={(event) => onPreferencesChange(event.target.value)} placeholder={preferencesPlaceholder} />
